@@ -58,7 +58,7 @@ Development files for OpenCSG.
 
 %prep
 %setup -q -n OpenCSG-%{version}
-%apply_patches
+%autopatch -p1
 
 # Use system glew
 rm -rf glew/
