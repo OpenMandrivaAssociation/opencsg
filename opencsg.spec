@@ -10,7 +10,7 @@ Summary:        Library for Constructive Solid Geometry using OpenGL
 Group:          System/Libraries
 # license.txt contains a linking exception for CGAL
 License:        GPLv2+ with exceptions
-URL:            http://www.opencsg.org/
+URL:            https://www.opencsg.org/
 Source0:        http://www.opencsg.org/OpenCSG-%{version}.tar.gz
 Patch0:         %{name}-build.patch
 
