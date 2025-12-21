@@ -14,6 +14,7 @@ URL:            https://www.opencsg.org/
 Source0:        http://www.opencsg.org/OpenCSG-%{version}.tar.gz
 Patch0:         %{name}-build.patch
 
+BuildRequires:	make
 BuildRequires:  dos2unix
 BuildRequires:  freeglut-devel
 BuildRequires:  pkgconfig(glew)
