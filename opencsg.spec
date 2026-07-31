@@ -4,15 +4,15 @@
 %define debug_package %nil
 
 Name:           opencsg
-Version:        1.4.0
-Release:        2
+Version:        1.8.2
+Release:        1
 Summary:        Library for Constructive Solid Geometry using OpenGL
 Group:          System/Libraries
 # license.txt contains a linking exception for CGAL
 License:        GPLv2+ with exceptions
 URL:            https://www.opencsg.org/
 Source0:        http://www.opencsg.org/OpenCSG-%{version}.tar.gz
-Patch0:         %{name}-build.patch
+# dropped (no longer applies): Patch0:         %{name}-build.patch
 
 BuildRequires:	make
 BuildRequires:  dos2unix
@@ -58,7 +58,7 @@ Development files for OpenCSG.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q -n OpenCSG-%{version}
+%setup -q -n OpenCSG-1.8.2
 %autopatch -p1
 
 # Use system glew
